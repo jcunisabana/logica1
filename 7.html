@@ -1,0 +1,383 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>JCES - Lógica 1</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="../jcunisabana.github.io/css/bootstrap.min.css">
+				<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css" >
+						<link rel="stylesheet" href="css/estilo.css">
+
+		<!-- To use icons from fontawesome -->
+
+		<script src="https://use.fontvawesome.com/503e7c40b4.js"></script>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+
+
+<section  data-background-image ="https://upload.wikimedia.org/wikipedia/commons/7/7a/Venn_diagram_cmyk.svg" data-background-size = "contain">
+	
+<div class="container">
+<div class="row">
+
+	<div class="highlightred transbox col-lg-10"> 
+	<h2 class=" ">
+	Categorías y diagramas de Venn</h2> 
+	       
+	</div>	
+	<div class="highlightred transbox col-lg-3"> 
+
+	<font size="3"><p>Juan Camilo Espejo-Serna<br> Universidad de la Sabana</p></font> 
+		
+
+	</div>	
+</div>	
+
+</div>
+		
+				</section>	
+<section><h2>Plan</h2>
+<ol>
+<li class="fragment fade-up"><a href="#/uno">Teoría intuitiva de categorías</a></li>
+<!--<li class="fragment fade-up"><a href="#/tres">'Percatación' y consciencia</a></li>-->
+<li class="fragment fade-up">
+	<a href="#/dos">Proposiciones categóricas</a></li>
+<li class="fragment fade-up">
+	<a href="#/tres">Nociones comunes</a></li>
+<li class="fragment fade-up">
+	<a href="#/cuatro">Postulados</a></li>
+<li class="fragment fade-up">
+	<a href="#/cinco">Proposiciones</a></li>
+<li class="fragment fade-up">
+	<a href="#/seis">El quinto postulado</a></li>
+<li class="fragment fade-up">
+<a href="#/siete">Glosario</a></li>
+<li class="fragment fade-up">
+<a href="#/ocho">Actividad </a></li>
+	
+
+
+</ol>
+
+</section>
+<!--				<section>Slide 2</section>-->
+
+<section  id="uno" data-background-image ="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Raffael_058.jpg/1280px-Raffael_058.jpg" data-background-size = ""><h2 class="highlightred">La geometría</h2>
+</section>
+
+				
+				
+
+<section> Describan tres formas de construir un triángulo con tres lados iguales
+
+</section>
+<section>
+La geometría egipcia y babilonia era una disciplina principalmente al servicio de cuestiones prácticas: cómo dividir una parcela, cómo medir el área de un sólido, cómo construir un edificio, etc.	
+</section>	
+								
+<section>La geometría helénica se caracterizó, en parte, por ser mucho más general. Hay un interés en la geometría por la geometría. <br>Hay una anécdota sobre un supuesto diágolo entre Euclides y uno de sus estudiantes.
+
+<p class="fragment">Estudiante: ¿De qué me sirve esto?¿Qué gano yo con esto?</p>	
+<p class="fragment">Euclides: Esclavo, entréguele una moneda al estudiante. Así ya gana algo y podemos continuar con la geometría</p>	
+</section>				
+
+				
+<section><i>Los Elementos</i> es quizá el primer libro de texto. Es una recopilación sistematizada de la geometría helénica. Es ordenado y deductivamente claro.</section>	
+
+				
+<section>
+<div class="container-fluid">
+	<div class="row">
+	<div class="col-sm-3" style="background-color:darkcyan ;"> <h4><i>Los Elementos de Euclides</i> </h4>
+	
+	</div>	
+	<div class="fragment col-sm-3" style="background-color:#3418A3	"> <h4>Libro I</h4> Geometría de planos básica</div>
+	<div class="fragment col-sm-3" style="background-color:#3E2694	"> <h4>Libro II</h4> Geometría algebráica</div>
+	<div class="fragment col-sm-3" style="background-color:#493485	"> <h4>Libro III</h4> Círculos y ángulos</div>
+	<div class="fragment col-sm-3" style="background-color:#544276	"> <h4>Libro IV</h4> Construcciones de polígonos regulares</div>
+	<div class="fragment col-sm-3" style="background-color:#5E5067	"> <h4>Libro V</h4> Teoría de razones y proporciones.</div>
+	<div class="fragment col-sm-3" style="background-color:#695E58	"> <h4>Libro VI</h4> Figuras similares y proporciones geométricas</div>
+	<div class="fragment col-sm-3" style="background-color:#746C4A	"> <h4>Libro VII</h4> Teoría de números <br>básica</div>
+	<div class="fragment col-sm-4" style="background-color:#7F7A3B	"> <h4>Libro VIII</h4> Progresiones geométricas en teoría de números</div>
+	<div class="fragment col-sm-3"  style="background-color:#89882C	"> <h4>Libro IX</h4> Teoría de números avanzada</div>
+	<div class="fragment col-sm-3" style="background-color:#94961D	"> <h4>Libro X</h4> Clasificación de las magnitudes irracionales</div>
+	<div class="fragment col-sm-3" style="background-color:#9FA40E	"> <h4>Libro XI</h4> Geometría de sólidos básica</div>
+	<div class="fragment col-sm-3" style="background-color:#A0A60D		"> <h4>Libro XII</h4> Medición de sólidos</div>
+	<div class="fragment col-sm-4" style="background-color:#AAB300"> <h4>Libro XIII</h4> Construcción de los sólidos platónicos</div>
+	
+
+
+	
+	</div>
+
+	</div>				
+			
+</section>	
+				
+				
+<section>
+	Definiciones, nociones comunes, postulados y proposiciones.
+
+</section>
+				
+				
+<section  id="dos" data-background-image ="https://upload.wikimedia.org/wikipedia/commons/9/9e/Euclid_statue%2C_Oxford_University_Museum_of_Natural_History%2C_UK_-_20080315.jpg" data-background-size = "contain">
+	
+	
+<h3 class="highlightred">Definiciones</h3>	
+</section>				
+
+<section>
+<h3>Definiciones</h3>
+	<ul>
+	<li class="fragment">Punto</li>
+	<li class="fragment">Línea</li>
+	<li class="fragment">Plano	</li>
+	<li class="fragment">Ángulos: rectos, obtusos y agudos	</li>
+	<li class="fragment">Línea perpendicular</li>
+<li class="fragment">Figuras </li>
+	<li class="fragment">Triángulo: equilátero, rectángulo, isóceles </li>
+
+<li class="fragment">Círculo: semicírculo, radio, centro y diámetro</li>
+<li class="fragment">Cuadrilátero: cuadrado, rectángulo, rombo, romboide</li>
+<li class="fragment">Líneas paralelas</li></ul>
+</section>				
+				
+<section  id="tres" data-background-image ="https://upload.wikimedia.org/wikipedia/commons/9/9e/Euclid_statue%2C_Oxford_University_Museum_of_Natural_History%2C_UK_-_20080315.jpg" data-background-size = "contain">
+	
+	<h3 class="highlightred">Nociones comunes</h3>		
+				
+</section>
+
+				
+<section>
+	<ol>
+<li class="fragment">Cosas iguales a una tercera son iguales entre sí.</li>
+<li class="fragment">Si a cosas iguales se añaden cosas iguales, los totales son iguales también.</li>
+<li class="fragment"> Si a cosas iguales se quitan cosas iguales, los restos son iguales también.</li>
+<li class="fragment">Las cosas que coinciden entre sí son iguales entre sí.</li>
+<li class="fragment">El todo es mayor que la parte.</li>
+</ol>
+
+</section>	
+	
+				
+				
+<section  id="cuatro" data-background-image ="https://upload.wikimedia.org/wikipedia/commons/9/9e/Euclid_statue%2C_Oxford_University_Museum_of_Natural_History%2C_UK_-_20080315.jpg" data-background-size = "contain">
+<h3 class="highlightred">Postulados</h3>
+	
+</section>		
+		<section>	
+	
+<ol>
+<li class="fragment">Por dos puntos diferentes pasa una sola línea recta.</li>
+<li class="fragment">Un segmento rectilíneo puede ser siempre alargado.</li>
+<li class="fragment">Hay una sola circunferencia con un centro y un radio dados.</li>
+
+
+
+
+<li class="fragment">Todos los ángulos rectos son iguales.</li>
+
+
+
+
+<li class="fragment">Si una recta secante corta a dos rectas formando a un lado ángulos interiores, la suma de los cuales sea menor que dos ángulos rectos; las dos rectas, suficientemente alargadas se cortarán en el mismo lado.</li>
+	</ol>
+		</section>		
+<section  id="cinco" data-background-image ="https://upload.wikimedia.org/wikipedia/commons/9/9e/Euclid_statue%2C_Oxford_University_Museum_of_Natural_History%2C_UK_-_20080315.jpg" data-background-size = "contain">
+			<h3 class="highlightred">Proposiciones</h3>
+	</section>	
+				
+		<section>
+	<ol>
+	 <li class="fragment">Construir un triángulo equilátero sobre un segmento dado.</li>
+
+<li class="fragment"> Dibujar en un punto dado una recta igual a una recta dada </li>
+		
+	<li class="fragment">Restar del mayor de dos segmentos dados un segmento igual al menor.</li>
+		<li class="fragment"> Si dos triángulos tienen dos lados respectivos iguales, y tienen los ángulos comprendidos iguales,  también tendrán las bases iguales, y los triángulos serán iguales, y los ángulos restantes serán iguales, concretamente los opuestos a los lados iguales.</li>
+		<li class="fragment">En triángulos isósceles los ángulos en la base son iguales y, si los lados iguales se alargan, los ángulos situados bajo la base serán iguales entre sí.</li>
+		<li class="fragment"> Si en un triángulo dos ángulos son iguales, entonces los lados opuestos a los ángulos iguales también son iguales uno al otro.</li>
+
+		</ol>
+
+			</section>
+				
+				
+				
+<section>A finales del siglo XIX, David Hilbert propose una nueva organización de la geometría euclideana. <br>Para ello, propose 6 definiciones y 20 axiomas. <br>Propone 6 definiciones de punto, línea y plano, junto a tres relaciones geométricas. <br> Propose 20 axiomas sobre conexión, orden, líneas paralelas,  congruencia,  y continuidad. </section>	
+				
+				
+				
+<section  id="seis" data-background-image ="https://upload.wikimedia.org/wikipedia/commons/9/9e/Euclid_statue%2C_Oxford_University_Museum_of_Natural_History%2C_UK_-_20080315.jpg" data-background-size = "contain">
+<h3 class="highlightred">El quinto postulado</h3>
+	</section>			
+				
+				
+	<section>Si una recta secante corta a dos rectas formando a un lado ángulos interiores, la suma de los cuales sea menor que dos ángulos rectos; las dos rectas, suficientemente alargadas se cortarán en el mismo lado.</section>	
+				
+<section data-background-image="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Euclidian_and_non_euclidian_geometry.png/1280px-Euclidian_and_non_euclidian_geometry.png"	data-background-size ="contain" ></section>		
+				
+				
+<section data-background="white"  >
+				
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Noneuclid.svg/1024px-Noneuclid.svg.png">				
+				</section>		
+				
+
+<section id="siete" data-background-image ="https://upload.wikimedia.org/wikipedia/commons/8/8b/Atomic_capture.gif"> <h1 class="highlightred">Glosario </h1>
+</section>
+				
+				
+				
+
+<section data-transition="convex">
+<div class="container-fluid">
+	<div class="row">
+	
+<div class="col-md-6" style="background-color: ;"> 
+
+<ul class="">
+<li>Lógica</li>
+<li>Argumento</li>
+<li>Proposición</li>
+<li>Enunciado</li>
+<li>Premisa</li>
+<li>Conclusión</li>
+<li>Deducción</li>
+<li>Inducción</li>
+<li>Argumento válido y argumento inválido</li>
+<li>Distinción entre validez y verdad</li>	</ul>	
+	
+</div>
+		
+		
+<div class="col-md-6" style="background-color: ;"> 
+
+<ul  class="">	
+<li>Contradicción</li>		
+<li>Argumento por reducción al absurdo</li>		
+<li>Axioma</li>
+<li>Teorema</li>
+<li>Conectivo lógico</li>
+<li>Tabla de verdad</li>		
+<li>Diagrama de Venn</li>
+<li>Premisa Mayor</li>
+<li>Premisa menor</li>		
+<li>Silogismo</li>
+		
+</ul>	
+	
+	
+		</div>			
+	</div>
+	</div>
+
+	
+	
+	
+</section>
+					
+		
+<section>
+<h1>Glosario</h1> <p style="text-align:left;">Definición de cada uno de los términos. <br> Ejemplo partiular </p>
+</section>
+
+				
+	
+<section> (ejemplo)
+<h1>Argumento</h1> <p style="text-align:left;">Definición: conjunto de proposiciones donde unas (las premisas) están en una relación de apoyo particular con otra (la conclusión.) de cada uno de los términos. <br> Ejemplo:  P1) Todos los hombres son perros. P2) Todos los perros son animales. C) Todos los hombres son perros.  Aquí se tiene un ejemplo de un argumento deductivo donde las premisas (P 1 y P2) están en una relación deductiva frente la conclusión (C) </p>
+</section>				
+				
+				
+				
+				
+<section data-transition="fade-in" data-background="#009933" data-background-transition="zoom"><h3>Para la próxima semana</h3>
+	<ul>
+	<li>Taller Glosario. </li>
+	</ul>
+</section>
+
+<section id="ocho" data-background-image ="https://upload.wikimedia.org/wikipedia/commons/1/19/Euclid_Elements_Book_1_Proposition_3.gif"> <h1 class="highlightred">Actividad</h1>
+</section>
+
+				
+				
+<section><h1 style="background-color:ghostwhite ; color:black;">Bisecar un ángulo rectilíneo dado </h1>
+<p style="color:grey;">
+Para mostrar cómo se biseca un ángulo, se necesitan los teoremas que ya hemos estudiado en detalle (1,2 y 3) y los teoremas sobre igualdades en triángulo.				
+	
+	
+	</p>				
+				</section>						
+
+<section data-background="white"><h3 style="background-color:ghostwhite; color:black;" >Igualdades en triángulos</h3>
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12" style="background-color:ivory; color:black;"> 
+<h4 style="color:black;">Proposición 4</h4> 	
+Si dos triángulos tienen dos lados iguales uno a otro e iguales los ángulos comprendidos entre las líneas iguales, también tendán una base igual a la otra, un triángulo será igual al otro y los ángulos restantes serán iguales a los ángulos restantes.	
+</div>
+	
+	
+<div class="col-md-12" style="background-color:AliceBlue; color:black;"> 
+<h4 style="color:black;">Proposición 6</h4> 	
+Si en un triángulo dos ángulos son iguales, entonces los lados opuestos a los ángulos iguales también son iguales uno al otro.
+</div>	
+<div class="col-md-12" style="background-color:Gainsboro ; color:black;"> <h4 style="color:black;">Proposición 8</h4> 	
+Si dos triángulos tienen dos lados respectivos iguales, y también tienen la base igual, también tendrán iguales los ángulos comprendidos por los segmentos iguales.	
+</div>			
+</div>
+</div>				
+</section>
+				
+				
+<section><h1 style="background-color:ghostwhite ; color:black;">Bisecar un ángulo rectilíneo dado </h1>
+<p style="color:grey;">
+Para mostrar cómo se biseca un ángulo, se necesitan los teoremas que ya hemos estudiado en detalle (1,2 y 3) y los teoremas sobre igualdades en triángulo.				
+</p>				
+				</section>				
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
