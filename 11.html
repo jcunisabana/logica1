@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>JCES - Lógica 1</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="../jcunisabana.github.io/css/bootstrap.min.css">
+				<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css" >
+						<link rel="stylesheet" href="css/estilo.css">
+
+		<!-- To use icons from fontawesome -->
+
+		<script src="https://use.fontvawesome.com/503e7c40b4.js"></script>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+
+
+<section  data-background-image ="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mosaico_nazar%C3%AD_%28hueso%29.svg" data-background-size = "">
+	
+<div class="container">
+<div class="row">
+
+	<div class="highlightred  col-lg-10"> 
+	<h2 class=" ">
+	Lenguaje simbólico</h2> 
+	       
+	</div>	
+	<div class="highlightred  col-lg-3"> 
+
+	<font size="3"><p>Juan Camilo Espejo-Serna<br> Universidad de la Sabana</p></font> 
+		
+	</div>	
+</div>	
+
+</div>
+		
+				</section>	
+
+<section><h2>Plan</h2>
+<ol>
+<!--<li class="fragment fade-up"><a href="#/tres">'Percatación' y consciencia</a></li>-->
+<li class="fragment fade-up">
+	<a href="#/dos">Los elementos del lenguaje simbólico de la lógica clásica</a></li>
+<li class="fragment fade-up">
+	<a href="#/tres">Tablas de verdad</a></li>
+
+
+</ol>
+
+</section>
+				
+<section  id="uno" data-background-image ="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mosaico_nazar%C3%AD_%28hueso%29.svg" data-background-size = "">
+	<h2 class="highlightred">Los elementos del lenguaje simbólico de la lógica clásica</h2>
+</section>
+				
+<section>Con los silogismos vimos algunas de las ventajas de un lenguaje simbólico.</section>				
+<section>Ejemplo: La validez de un silogismo BARBARA no depende de sus particularidades sino de la forma general de las proposiciones (AAA) y la figura (MP, SM, SP) </section>
+				
+<section>La lógica proposicional tiene como base la proposición</section>
+				
+<section><h1>P</h1><h1>Q</h1><h1>R</h1><h1>S</h1></section>
+
+<section>En el lenguaje de la lógica proposicional, las letras que denotan proposiciones son las expresiones básicas. Para construir una expresión compuesta podemos utilizar un <span class="fragment highlight-green ">conectivo lógico</span>.</section>				
+				
+				<section><h1>Conectivos lógicos básicos</h1>
+				
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3 fragment " style="background-color:green ;"> 
+			<h2>&not;</h2> negación
+
+		</div>
+<div class="col-sm-3 fragment"  style="background-color:blue ;" > 
+							<h2>&and;</h2> conjunción
+
+		</div>	
+<div class="col-sm-3 fragment"  style="background-color:orange ;">
+				<h2>&or;</h2> disyunción
+		</div>	
+<div class="col-sm-3 fragment"  style="background-color:red ;">
+				<h2>&rarr;</h2>	condicional
+		
+	</div>
+
+	</div>
+	</div>
+				
+				
+				</section>
+				
+	<section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:green;">Negación</h1>
+		<h1 class="fragment">&not;&alpha;</h1> <h1 class="fragment">~&alpha;</h1>
+				</section>	
+				
+<section><h1>&not;&alpha;</h1><h1>&not;&beta;</h1><h1>&not;&gamma;</h1><h1>&not;&delta;</h1></section>
+<section><h1>~&alpha;</h1><h1>~&beta;</h1><h1>~&gamma;</h1><h1>~&delta;</h1></section>
+				
+<section>Se puede utilizar bien ~ o bien &not; pero no una mezcla de los dos. </section>				
+<!--				<section>Slide 2</section>-->
+
+
+<section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:blue;">Conjunción</h1>
+		<h1 class="fragment">&and;</h1> <h1 class="fragment">&amp;</h1>
+				</section>	
+				
+<section><h1>&alpha; &and; &beta; </h1><h1>&beta; &and; &beta; </h1><h1>&delta; &and; &gamma; </h1><h1>&beta; &and; &alpha; </h1></section>
+<section><h1>&alpha; &amp; &beta; </h1><h1>&beta; &amp; &beta; </h1><h1>&delta; &amp; &gamma; </h1><h1>&beta; &amp; &alpha; </h1></section>
+				
+<section>Se puede utilizar bien &and; o bien &amp; pero no una mezcla de los dos. </section>	
+				
+<section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:orange;">Disyunción</h1>
+		<h1 class="fragment">&or;</h1>
+				</section>	
+				
+				
+<section><h1>&alpha; &or; &beta; </h1><h1>&beta; &or; &beta; </h1><h1>&delta; &or; &gamma; </h1><h1>&beta; &or; &alpha; </h1></section>
+				
+<section>Se puede utilizar bien &and; o bien &amp; pero no una mezcla de los dos. </section>					
+			
+				
+
+<section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:red;">Condicional</h1>
+		<h1 class="fragment">&rarr;</h1> <h1 class="fragment">&sup;</h1>
+				</section>	
+				
+<section><h1>&alpha; &rarr; &beta; </h1><h1>&beta; &rarr; &beta; </h1><h1>&delta; &rarr; &gamma; </h1><h1>&beta; &rarr; &alpha; </h1></section>
+<section><h1>&alpha; &sup; &beta; </h1><h1>&beta; &sup; &beta; </h1><h1>&delta; &sup; &gamma; </h1><h1>&beta; &sup; &alpha; </h1></section>
+				
+<section>Se puede utilizar bien &and; o bien &amp; pero no una mezcla de los dos. </section>					
+				
+<section  id="dos" data-background-image ="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mosaico_nazar%C3%AD_%28hueso%29.svg" data-background-size = "">
+	<h2 class="highlightred">Tablas de verdad</h2>
+</section>
+				
+				
+	<section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:green;">Negación</h1>
+		<h2 class="fragment">Si P es verdadero, &not;P es falso</h2>
+		<h2 class="fragment">Si P es falso, &not;P es verdadero</h2>
+
+				</section>					
+				
+				
+				
+
+<section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:blue;">Conjunción</h1>
+		<h2>Si &alpha; y &beta; son verdaderos, <br>&alpha; &and; &beta; es verdadero</h2>
+	<h2>Si bien &alpha; o &beta;, o los dos son falsos, <br>&alpha; &and; &beta; es falso</h2>
+
+				</section>
+
+<section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:orange;">Disyunción</h1>
+		<h2>Si &alpha; y &beta; son falsos, <br>&alpha; &or; &beta; es falso</h2>
+	<h2>Si bien &alpha;, &beta; o los dos son verdaderos, <br>&alpha; &or; &beta; es verdadero</h2>
+
+				</section>					
+
+	<section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:red;">Condicional</h1>
+		<h2>Si &alpha; es verdadera y &beta; es falsa, <br>&alpha; &rarr; &beta; es falso</h2>
+	<h2>En todos los demás casos, &alpha; &rarr; &beta; es verdadero</h2>
+
+				</section>				
+				
+				
+				
+				
+	<section data-transition="fade-in" data-background="#009933" data-background-transition="zoom"><h3>Para la próxima</h3>
+	<ul>
+	<li>Copi, I. <i>Introducción a la lógica</i>. Cap 8</li>
+		
+
+			
+	</ul>
+</section>			
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
