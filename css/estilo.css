@@ -407,3 +407,9 @@ div.transbox ul {
   color: #000000;
 }
 
+/*para acomodar las tablas de links semanales*/
+.semanario td {
+    text-align:center !important;
+    width: 1000;
+     height: 350;
+}
