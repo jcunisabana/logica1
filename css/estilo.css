@@ -406,4 +406,8 @@ div.transbox ul {
   margin: 3%;
   color: #000000;
 }
-
+.semanario td {
+    text-align:center !important;
+    width: 1000;
+     height: 350;
+}
