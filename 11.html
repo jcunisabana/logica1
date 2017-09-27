@@ -107,44 +107,48 @@
 				</section>
 				
 	<section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:green;">Negación</h1>
-		<h1 class="fragment">&not;&alpha;</h1> <h1 class="fragment">~&alpha;</h1>
+		<h1 class="fragment">&not;&alpha;</h1>
+<!--        <h1 class="fragment">~&alpha;</h1>-->
 				</section>	
 				
-<section><h1>&not;&alpha;</h1><h1>&not;&beta;</h1><h1>&not;&gamma;</h1><h1>&not;&delta;</h1></section>
+<section><h1>&not;&alpha;</h1><h1 class="fragment">&not;&beta;</h1><h1 class="fragment">&not;&gamma;</h1>
+    <h1 class="fragment">&not;&delta;</h1>
+                </section>
+<!--
 <section><h1>~&alpha;</h1><h1>~&beta;</h1><h1>~&gamma;</h1><h1>~&delta;</h1></section>
 				
 <section>Se puede utilizar bien ~ o bien &not; pero no una mezcla de los dos. </section>				
+-->
 <!--				<section>Slide 2</section>-->
 
 
 <section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:blue;">Conjunción</h1>
-		<h1 class="fragment">&and;</h1> <h1 class="fragment">&amp;</h1>
+		<h1 class="fragment">&and;</h1> 
+<!--    <h1 class="fragment">&amp;</h1>-->
 				</section>	
 				
-<section><h1>&alpha; &and; &beta; </h1><h1>&beta; &and; &beta; </h1><h1>&delta; &and; &gamma; </h1><h1>&beta; &and; &alpha; </h1></section>
-<section><h1>&alpha; &amp; &beta; </h1><h1>&beta; &amp; &beta; </h1><h1>&delta; &amp; &gamma; </h1><h1>&beta; &amp; &alpha; </h1></section>
+<section><h1>&alpha; &and; &beta; </h1><h1 class="fragment">&beta; &and; &beta; </h1><h1 class="fragment">&delta; &and; &gamma; </h1><h1 class="fragment">&beta; &and; &alpha; </h1></section>
+<!--<section><h1>&alpha; &amp; &beta; </h1><h1>&beta; &amp; &beta; </h1><h1>&delta; &amp; &gamma; </h1><h1>&beta; &amp; &alpha; </h1></section>-->
 				
-<section>Se puede utilizar bien &and; o bien &amp; pero no una mezcla de los dos. </section>	
+<!--<section>Se puede utilizar bien &and; o bien &amp; pero no una mezcla de los dos. </section>	-->
 				
 <section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:orange;">Disyunción</h1>
 		<h1 class="fragment">&or;</h1>
 				</section>	
 				
 				
-<section><h1>&alpha; &or; &beta; </h1><h1>&beta; &or; &beta; </h1><h1>&delta; &or; &gamma; </h1><h1>&beta; &or; &alpha; </h1></section>
-				
-<section>Se puede utilizar bien &and; o bien &amp; pero no una mezcla de los dos. </section>					
-			
+<section><h1>&alpha; &or; &beta; </h1><h1 class="fragment">&beta; &or; &beta; </h1><h1 class="fragment">&delta; &or; &gamma; </h1><h1 class="fragment">&beta; &or; &alpha; </h1></section>
+							
 				
 
 <section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:red;">Condicional</h1>
-		<h1 class="fragment">&rarr;</h1> <h1 class="fragment">&sup;</h1>
+		<h1 class="fragment">&rarr;</h1> 
 				</section>	
 				
-<section><h1>&alpha; &rarr; &beta; </h1><h1>&beta; &rarr; &beta; </h1><h1>&delta; &rarr; &gamma; </h1><h1>&beta; &rarr; &alpha; </h1></section>
-<section><h1>&alpha; &sup; &beta; </h1><h1>&beta; &sup; &beta; </h1><h1>&delta; &sup; &gamma; </h1><h1>&beta; &sup; &alpha; </h1></section>
+<section><h1>&alpha; &rarr; &beta; </h1><h1 class="fragment">&beta; &rarr; &beta; </h1><h1 class="fragment">&delta; &rarr; &gamma; </h1><h1 class="fragment">&beta; &rarr; &alpha; </h1></section>
+<!--<section><h1>&alpha; &sup; &beta; </h1><h1>&beta; &sup; &beta; </h1><h1>&delta; &sup; &gamma; </h1><h1>&beta; &sup; &alpha; </h1></section>-->
 				
-<section>Se puede utilizar bien &and; o bien &amp; pero no una mezcla de los dos. </section>					
+<!--<section>Se puede utilizar bien &and; o bien &amp; pero no una mezcla de los dos. </section>					-->
 				
 <section  id="dos" data-background-image ="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mosaico_nazar%C3%AD_%28hueso%29.svg" data-background-size = "">
 	<h2 class="highlightred">Tablas de verdad</h2>
@@ -155,29 +159,77 @@
 		<h2 class="fragment">Si P es verdadero, &not;P es falso</h2>
 		<h2 class="fragment">Si P es falso, &not;P es verdadero</h2>
 
-				</section>					
+				</section>						
 				
-				
-				
+	<section>
+        
+
+     <font size="50">
+<table>
+<tr><th><var>p</var></th><th class="separator" /><th>&not;</th><th><var>p</var></th></tr>
+<tr><td class="fragment" >V</td><td class="separator" /><td><span class="fragment" style="color: blueviolet">F</span></td><td></td></tr>
+<tr><td class="fragment">F</td><td class="separator" /><td><span class="fragment" style="color: blueviolet">V</span></td><td></td></tr>
+</table>
+        </font> 
+         </section>        
+                
+    		
 
 <section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:blue;">Conjunción</h1>
-		<h2>Si &alpha; y &beta; son verdaderos, <br>&alpha; &and; &beta; es verdadero</h2>
-	<h2>Si bien &alpha; o &beta;, o los dos son falsos, <br>&alpha; &and; &beta; es falso</h2>
+		<h2>Si &alpha; y &beta; son ambos verdaderos, <br>&alpha; &and; &beta; es verdadero</h2>
+	<h2 class="fragment">Si bien &alpha;, &beta; o los dos son falsos, <br>&alpha; &and; &beta; es falso</h2>
 
 				</section>
+                
+  <section>			
+          <font size="50">
+ 
+ <table>
+<tr><th><var>p</var></th><th><var>q</var></th><th class="separator" /><th><var>p</var></th><th>&and;</th><th><var>q</var></th></tr>
+<tr class="fragment"><td>V</td><td>V</td><td class="separator" /><td>V</td><td><span class="result fragment" style="color: blueviolet">V</span></td><td>V</td></tr>
+<tr class="fragment"><td>V</td><td>F</td><td class="separator" /><td>V</td><td><span class="result fragment" style="color: blueviolet">F</span></td><td>F</td></tr>
+<tr class="fragment"><td>F</td><td>V</td><td class="separator" /><td>F</td><td><span class="result fragment" style="color: blueviolet">F</span></td><td>V</td></tr>
+<tr class="fragment"><td>F</td><td>F</td><td class="separator" /><td>F</td><td><span class="result fragment" style="color: blueviolet">F</span></td><td>F</td></tr>
+</table>       
+      </font>
+                </section>	            
 
 <section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:orange;">Disyunción</h1>
-		<h2>Si &alpha; y &beta; son falsos, <br>&alpha; &or; &beta; es falso</h2>
-	<h2>Si bien &alpha;, &beta; o los dos son verdaderos, <br>&alpha; &or; &beta; es verdadero</h2>
+		<h2>Si &alpha; y &beta; son ambos falsos, <br>&alpha; &or; &beta; es falso</h2>
+	<h2 class="fragment">Si bien &alpha;, &beta; o los dos son verdaderos, <br>&alpha; &or; &beta; es verdadero</h2>
 
 				</section>					
 
+<section>			
+          <font size="50">
+ 
+ <table>
+<tr><th><var>p</var></th><th><var>q</var></th><th class="separator" /><th><var>p</var></th><th>&or;</th><th><var>q</var></th></tr>
+<tr class="fragment"><td>V</td><td>V</td><td class="separator" /><td>V</td><td><span class="result fragment"style="color: blueviolet">V</span></td><td>V</td></tr>
+<tr class="fragment"><td>V</td><td>F</td><td class="separator" /><td>V</td><td><span class="result fragment"style="color: blueviolet">V</span></td><td>F</td></tr>
+<tr class="fragment"><td>F</td><td>V</td><td class="separator" /><td>F</td><td><span class="result fragment"style="color: blueviolet">V</span></td><td>V</td></tr>
+<tr class="fragment"><td>F</td><td>F</td><td class="separator" /><td>F</td><td><span class="result fragment"style="color: blueviolet">F</span></td><td>F</td></tr>
+</table>       
+      </font>
+                </section>	                
+                
 	<section data-transition="fade-in"  data-background-transition="zoom"><h1 style="background:red;">Condicional</h1>
 		<h2>Si &alpha; es verdadera y &beta; es falsa, <br>&alpha; &rarr; &beta; es falso</h2>
-	<h2>En todos los demás casos, &alpha; &rarr; &beta; es verdadero</h2>
+	<h2 class="fragment">En todos los demás casos, <br> &alpha; &rarr; &beta; es verdadero</h2>
 
 				</section>				
-				
+<section>			
+          <font size="50">
+ 
+ <table>
+<tr><th><var>p</var></th><th><var>q</var></th><th class="separator" /><th><var>p</var></th><th>&rarr;</th><th><var>q</var></th></tr>
+<tr class="fragment"><td>V</td><td>V</td><td class="separator" /><td>V</td><td><span class="result fragment"style="color: blueviolet">V</span></td><td>V</td></tr>
+<tr class="fragment"><td>V</td><td>F</td><td class="separator" /><td>V</td><td><span class="result fragment"style="color: blueviolet">F</span></td><td>F</td></tr>
+<tr class="fragment"><td>F</td><td>V</td><td class="separator" /><td>F</td><td><span class="result fragment" style="color: blueviolet">V</span></td><td>V</td></tr>
+<tr class="fragment"><td>F</td><td>F</td><td class="separator" /><td>F</td><td><span class="result fragment" style="color: blueviolet">V</span></td><td>F</td></tr>
+</table>       
+      </font>
+                </section>	   				
 				
 				
 				
